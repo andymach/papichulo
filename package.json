@@ -1,0 +1,15 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node crash.js",
+"start": "node crash.js"
+  },
+  "description": "",
+  "main": "crash.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+     "puppeteer": "^19.6.3"
+  }
+}
