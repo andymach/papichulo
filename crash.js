@@ -7,7 +7,7 @@ async function testFunction() {
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-features=site-per-process', '--disable-setuid-sandbox'],
         ignoreDefaultArgs: ['--disable-extensions'],
-        headless: false,
+        headless: true,
         executablePath: executablePath(),
     })
 
